@@ -17,7 +17,17 @@ public class Main {
 	usernumber = keyboard.nextInt();
 
 	if (usernumber<pickedNumber){
-	    System.out.println
+
+	    System.out.println("My number is greater than yours");
+
+    }
+        usernumber = keyboard.nextInt();
+    if (usernumber>pickedNumber){
+	    System.out.println("My number is less than yours");
+    }
+        usernumber = keyboard.nextInt();
+    if (usernumber==pickedNumber){
+	    System.out.println("You got it right!");
     }
     }
 
