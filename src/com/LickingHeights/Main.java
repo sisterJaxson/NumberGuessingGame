@@ -12,7 +12,7 @@ public class Main {
         keyboard = new Scanner(System.in);
 
         pickedNumber = (int) (Math.random() * 100);
-        System.out.println(pickedNumber);
+
         System.out.println("Can you guess the number, 1 to 100, that I am thinking of?");
         usernumber = keyboard.nextInt();
 
